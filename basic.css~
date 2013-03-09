@@ -1,0 +1,10 @@
+#container{
+	margin: 0px auto;
+}
+#pad{
+	height: 400px;
+	width: 400px;
+	border: 1px solid #000;
+	margin: 0 auto;
+}
+

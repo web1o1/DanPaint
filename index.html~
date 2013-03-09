@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <script src="board.js"></script>
+  <link rel="stylesheet" type="text/css" href="basic.css">
+</head>
+<body>
+	<div id="container">
+		<canvas id="pad" height=300px width=300px>Your browser does not support HTML5 Canvas :(</canvas>
+		<button id="black" click="changeColor('black')">black</button>
+		<button id="red" click="changeColor('red')">red</button>
+		<button id="green" click="changeColor">green</button>
+		<button id="blue" click="changeColor">blue</button>
+	</div>
+</body>
+</html>
