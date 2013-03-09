@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <script src="board.js"></script>
+<<<<<<< HEAD
+  <link rel="stylesheet" type="text/css" href="basic.css">
+</head>
+<body>
+	<div id="container">
+		<canvas id="pad" height=300px width=300px>Your browser does not support HTML5 Canvas :(</canvas>
+		<button id="black" >black</button>
+		<button id="red" >red</button>
+		<button id="green" >green</button>
+		<button id="blue" >blue</button>
+	</div>
+=======
+</head>
+<body>
+  <canvas id="pad" height=300 width=300>Your browser does not support HTML5 Canvas :(</canvas>
+>>>>>>> 33c0221f72c37047571db8babe3ca075e1b6ba61
+</body>
+</html>
