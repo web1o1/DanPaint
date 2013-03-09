@@ -4,7 +4,6 @@ function canvasApp () {
     var canvas = document.getElementById("pad");
     var ctx = canvas.getContext("2d");
 
-<<<<<<< HEAD
 	var black = document.getElementById("black");
 	var red = document.getElementById("red");
 	var blue = document.getElementById("green");
@@ -13,9 +12,7 @@ function canvasApp () {
     var pixels = {}
 	
 	var current_color = 'black';
-=======
     var pixels = {}
->>>>>>> 33c0221f72c37047571db8babe3ca075e1b6ba61
 
     init();
 
@@ -30,7 +27,6 @@ function canvasApp () {
         canvas.addEventListener('mousedown', eventMouseDown.bind(null, mouseState), false);
         canvas.addEventListener('mousemove', eventMouseMove.bind(null, mouseState), false);
         canvas.addEventListener('mouseup',   eventMouseUp.bind(null, mouseState),   false);
-<<<<<<< HEAD
 
 		red.addEventListener('click',     function changeColor () {
 					current_color = this.id;
@@ -44,29 +40,20 @@ function canvasApp () {
 		blue.addEventListener('click',     function changeColor () {
 					current_color = this.id;
     				});
-=======
->>>>>>> 33c0221f72c37047571db8babe3ca075e1b6ba61
     }
 
     function initPixels (pixels) {
         var pixelData;
-<<<<<<< HEAD
 		
         pixels["black"] = createPixel(ctx, 0, 0, 0, 255);
-		
-=======
 
         pixels["black"] = createPixel(ctx, 0, 0, 0, 255);
->>>>>>> 33c0221f72c37047571db8babe3ca075e1b6ba61
     }
 
     function createPixel (ctx, red, green, blue, alpha) {
         var pixelData = ctx.createImageData(1, 1);
-<<<<<<< HEAD
 		ctx.lineWidth = 2;
 		ctx.strokeStyle = current_color;
-=======
->>>>>>> 33c0221f72c37047571db8babe3ca075e1b6ba61
         pixelData.data[0] = red;
         pixelData.data[1] = green;
         pixelData.data[2] = blue;
@@ -82,13 +69,10 @@ function canvasApp () {
 
     function eventMouseDown (state, e) {
         var mouse = getMousePosition(e);
-<<<<<<< HEAD
 		initPixels(pixels);
         state.isDown = true;
-=======
-        state.isDown = true;
 
->>>>>>> 33c0221f72c37047571db8babe3ca075e1b6ba61
+        state.isDown = true;
         drawPixel(ctx, mouse.x, mouse.y, "black");
         state.previous = { x: mouse.x, y: mouse.y };
     }
