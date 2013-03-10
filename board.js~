@@ -125,7 +125,6 @@ function canvasApp () {
 			positionX = mouse.x;
 			positionY = mouse.y;
 			ctx.moveTo(mouse.x, mouse.y);
-			console.log('started new shape');
 		}
 		initPixels(pixels);
         state.isDown = true;

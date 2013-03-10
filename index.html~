@@ -24,8 +24,8 @@
 		</div><!--line weight-->
 
 		<div id="shape">
-		<input type="radio" name="shape" id="point" checked>point
-		<input type="radio" name="shape" id="line">line
+		<input type="radio" name="shape" id="point">point
+		<input type="radio" name="shape" id="line" checked>line
 		<input type="radio" name="shape" id="circle" >circle
 		</div><!--shape-->
 
