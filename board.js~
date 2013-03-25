@@ -118,10 +118,11 @@ function canvasApp () {
     // Event handlers
     // --------------------------------------------------
 	
+	var textData;
 	//gets text input
 	$('#submit-text').click(function(){
 		console.log('clicked');
-		var textData = document.getElementById('text-data').value;
+		textData = document.getElementById('text-data').value;
 		document.getElementById('text-data').value = '';
 		console.log(textData);
 		ctx.font="15px Helvetica";

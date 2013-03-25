@@ -34,7 +34,7 @@
 		
 		<div id="text">
 		<input id="text-data" type="text" name="user-text" placeholder="Text">
-		<button id="submit-text">submit</button>
+		<button id="submit-text" click="getUserText()">submit</button>
 		</div><!--text-->
 		
 		<div id="clear">
